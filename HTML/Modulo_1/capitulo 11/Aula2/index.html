@@ -14,5 +14,18 @@
         <source media="(max-width: 1050px)" srcset="imagens/img_m.jpeg" type="image/jpeg">
         <img src="imagens/img_g.jpeg" alt="Imagem felxivel">
     </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender  a reporduzir áudios em HTML</p>
+    <audio src="" controls autoplay></audio> 
+    <!--MP3 WAV OGG-->
+    <!--OU-->
+    <audio preload="metadata">
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+        <!--vai tenatr do primeiro para o ultimo-->
+        <!--caso nao carregue, deixar mens-->
+        <p>Seu navegador nao consegue produzir audio. <a href=""></a> clique aqui para baixar o arquivo</p>
+    </audio>
 </body>
 </html>
