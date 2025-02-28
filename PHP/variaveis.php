@@ -11,6 +11,12 @@
         $salario = 1825.54;
         $nome = "Leonardo";
         $casado = false; 
+
+        $idade = (int) 18; //forcando a tipagem
+        $nome = (string) "Caroline" 
+
+        //echo $nome. " tem ". $idade. " anos!";
+        echo "$nome tem $idade anos!";
     ?>
 </body>
 </html>
